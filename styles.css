@@ -369,6 +369,27 @@ h1 {
   margin-bottom: 22px;
 }
 
+.video-heading {
+  display: block;
+  max-width: 980px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+
+.video-heading .section-kicker {
+  margin-bottom: 14px;
+}
+
+.video-heading h2 {
+  margin-top: 0;
+}
+
+.video-heading p:last-child {
+  margin: 16px auto 0;
+  max-width: 860px;
+  font-size: 18px;
+}
+
 .section-heading.narrow {
   max-width: 760px;
 }
@@ -408,7 +429,6 @@ h1 {
 }
 
 .gallery-card,
-.video-card,
 .image-card {
   overflow: hidden;
 }
@@ -422,9 +442,28 @@ h1 {
 }
 
 .gallery-card div,
-.video-card div,
 .image-card div {
   padding: 16px;
+}
+
+.video-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px 24px;
+}
+
+.video-card {
+  padding: 0;
+  border-radius: 28px;
+  background: #2d2a28;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 24px 50px rgba(40, 30, 22, 0.2);
+  overflow: hidden;
+}
+
+.video-card video {
+  aspect-ratio: 9 / 16;
+  background: #2f2c2b;
+  border-radius: 28px;
 }
 
 .gallery-note {
@@ -603,6 +642,10 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 
+  .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .hero-shell > :first-child,
   .split-copy,
   .gallery-note,
@@ -622,6 +665,7 @@ h1 {
   .main-nav,
   .hero-shell,
   .hero-stats,
+  .video-grid,
   .gallery-grid,
   .overview-grid,
   .split-shell,
