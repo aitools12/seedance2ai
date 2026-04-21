@@ -156,7 +156,9 @@ a {
 .hero-panel,
 .info-card,
 .metric-card,
+.image-card,
 .gallery-card,
+.video-card,
 .gallery-note,
 .use-case-stack article,
 .compare-table,
@@ -378,6 +380,7 @@ h1 {
 }
 
 .gallery-section,
+.video-section,
 .overview-section,
 .workflow-section,
 .compare-section,
@@ -387,6 +390,7 @@ h1 {
   padding: 28px 0;
 }
 
+.video-grid,
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -394,24 +398,32 @@ h1 {
 }
 
 .gallery-card,
+.video-card,
 .info-card,
 .metric-card,
+.image-card,
 .deep-link,
 .faq-item {
   border-radius: var(--radius-lg);
 }
 
-.gallery-card {
+.gallery-card,
+.video-card,
+.image-card {
   overflow: hidden;
 }
 
-.gallery-card img {
+.gallery-card img,
+.image-card img,
+.video-card video {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   width: 100%;
 }
 
-.gallery-card div {
+.gallery-card div,
+.video-card div,
+.image-card div {
   padding: 16px;
 }
 
@@ -456,6 +468,10 @@ h1 {
   background: linear-gradient(180deg, #fffaf0, #fff3de);
 }
 
+.image-card {
+  background: linear-gradient(180deg, #fff7ec, #fffdf8);
+}
+
 .split-shell {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
@@ -490,6 +506,17 @@ h1 {
 .use-case-stack article {
   padding: 22px;
   border-radius: var(--radius-lg);
+}
+
+.use-case-media {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.use-case-media img {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  object-fit: cover;
 }
 
 .use-case-stack h3 {
