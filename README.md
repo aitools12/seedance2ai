@@ -1,23 +1,23 @@
 # Seedance 2.0 AI Video
 
-Seedance2AI is an AI video generator built for creators who want to turn prompts and reference images into short, polished videos online.
+Seedance 2.0 is an AI video generator built for creators who want to turn prompts and reference images into short, polished videos online.
 
 - Website: [seedance2ai.app](https://seedance2ai.app/)
 - Tool Page: [Seedance AI Video Generator](https://seedance2ai.app/tools/seedance)
 - Pricing: [seedance2ai.app/pricing](https://seedance2ai.app/pricing)
 - Showcase: [seedance2ai.app/showcase](https://seedance2ai.app/showcase)
 
-## What is Seedance2AI
+## What is Seedance 2.0
 
-Seedance2AI is a web-based AI video generation platform centered around Seedance-powered video workflows. It helps users create videos from text prompts or turn still images into dynamic clips with cinematic motion, multi-shot storytelling, and downloadable output.
+Seedance 2.0 is a web-based AI video generation platform centered around Seedance-powered video workflows. It helps users create videos from text prompts or turn still images into dynamic clips with cinematic motion, multi-shot storytelling, and downloadable output.
 
 The product is designed for fast online creation. Users can start with a prompt, upload reference frames, choose aspect ratio and resolution, and generate short videos without a heavy editing workflow.
 
-## Why use Seedance2AI
+## Why use Seedance 2.0
 
-Most AI video products are either too technical, too slow, or too fragmented across multiple tools. Seedance2AI is built to simplify that workflow.
+Most AI video products are either too technical, too slow, or too fragmented across multiple tools. Seedance 2.0 is built to simplify that workflow.
 
-Reasons creators use Seedance2AI:
+Reasons creators use Seedance 2.0:
 
 - text-to-video and image-to-video in one workflow
 - 1080p output with higher-resolution targets available in the interface
@@ -25,13 +25,13 @@ Reasons creators use Seedance2AI:
 - fast online generation without complex setup
 - built-in access to multiple AI image and video tools under one website
 
-## How Seedance2AI works
+## How Seedance 2.0 works
 
-Seedance2AI follows a simple three-step workflow:
+Seedance 2.0 follows a simple three-step workflow:
 
 ### 1. Add a prompt or upload references
 
-Start with a text prompt, mood board, storyboard, or reference image. Seedance2AI supports prompt-driven creation as well as guided image-to-video workflows.
+Start with a text prompt, mood board, storyboard, or reference image. Seedance 2.0 supports prompt-driven creation as well as guided image-to-video workflows.
 
 ### 2. Choose output settings
 
@@ -47,16 +47,16 @@ Select the format that fits your use case:
 
 The Seedance video pipeline renders the clip, processes motion synthesis, and returns a downloadable video suitable for social posts, concept tests, product visuals, and creative experiments.
 
-## Where to try Seedance2AI
+## Where to try Seedance 2.0
 
-You can use Seedance2AI online here:
+You can use Seedance 2.0 online here:
 
 - Main website: [https://seedance2ai.app/](https://seedance2ai.app/)
 - Seedance video tool: [https://seedance2ai.app/tools/seedance](https://seedance2ai.app/tools/seedance)
 
 ## Core use cases
 
-Seedance2AI is useful for:
+Seedance 2.0 is useful for:
 
 - AI video generation from text prompts
 - image-to-video animation for creators and marketers
@@ -66,7 +66,7 @@ Seedance2AI is useful for:
 
 ## Why the product is different
 
-Seedance2AI is not just a single landing page. It is part of a broader AI creation website that includes video tools, image tools, pricing, showcase pages, and multi-language public pages.
+Seedance 2.0 is not just a single landing page. It is part of a broader AI creation website that includes video tools, image tools, pricing, showcase pages, and multi-language public pages.
 
 The platform currently highlights workflows around:
 
@@ -78,25 +78,25 @@ The platform currently highlights workflows around:
 - Kling
 - image enhancement and background removal
 
-That broader tool coverage makes Seedance2AI useful both as a dedicated Seedance entry point and as a hub for adjacent AI generation workflows.
+That broader tool coverage makes Seedance 2.0 useful both as a dedicated Seedance entry point and as a hub for adjacent AI generation workflows.
 
 ## FAQ
 
-### What is Seedance2AI used for?
+### What is Seedance 2.0 used for?
 
-Seedance2AI is used to create short AI videos from prompts or reference images online.
+Seedance 2.0 is used to create short AI videos from prompts or reference images online.
 
-### Does Seedance2AI support text-to-video and image-to-video?
+### Does Seedance 2.0 support text-to-video and image-to-video?
 
 Yes. The website supports both prompt-based generation and reference-driven video creation.
 
-### Is Seedance2AI available online?
+### Is Seedance 2.0 available online?
 
-Yes. Seedance2AI is available as a public website at [seedance2ai.app](https://seedance2ai.app/).
+Yes. Seedance 2.0 is available as a public website at [seedance2ai.app](https://seedance2ai.app/).
 
-### Who is Seedance2AI for?
+### Who is Seedance 2.0 for?
 
-Seedance2AI is built for creators, marketers, indie makers, and teams who want fast AI-generated visual content without a complex production pipeline.
+Seedance 2.0 is built for creators, marketers, indie makers, and teams who want fast AI-generated visual content without a complex production pipeline.
 
 ## Contact
 
