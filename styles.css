@@ -142,14 +142,11 @@ a {
 }
 
 .hero {
-  padding: 44px 0 26px;
+  padding: 32px 0 26px;
 }
 
 .hero-shell {
-  display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(340px, 0.92fr);
-  gap: 28px;
-  align-items: start;
+  display: block;
 }
 
 .hero-copy,
@@ -177,7 +174,17 @@ a {
 }
 
 .hero-copy {
-  padding: 34px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px 0 0;
+  text-align: center;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.hero-badge {
+  margin-bottom: 16px;
 }
 
 .eyebrow,
@@ -228,46 +235,21 @@ h1 {
 }
 
 .hero-lead {
-  margin: 20px 0 0;
-  max-width: 59ch;
+  margin: 22px auto 0;
+  max-width: 920px;
   font-size: 18px;
 }
 
 .hero-actions,
 .panel-links,
-.cta-actions {
+.cta-actions,
+.hero-panel-footer,
+.chip-row {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
 
-.hero-actions {
-  margin-top: 26px;
-}
-
-.hero-actions .secondary,
-.cta-actions .secondary {
-  background: transparent;
-  color: var(--ink);
-  border: 1px solid var(--line);
-  box-shadow: none;
-}
-
-.hero-stats {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  margin-top: 26px;
-}
-
-.hero-stats article {
-  padding: 18px;
-  border-radius: var(--radius-md);
-  background: #fff;
-  border: 1px solid var(--line);
-}
-
-.hero-stats strong,
 .metric-card strong,
 .gallery-card strong,
 .deep-link strong {
@@ -275,7 +257,6 @@ h1 {
   font-size: 18px;
 }
 
-.hero-stats span,
 .metric-card span,
 .gallery-card span,
 .deep-link span {
@@ -286,7 +267,9 @@ h1 {
 }
 
 .hero-panel {
-  padding: 22px;
+  max-width: 1040px;
+  margin: 26px auto 0;
+  padding: 20px;
 }
 
 .panel-top,
@@ -302,26 +285,36 @@ h1 {
   color: var(--muted);
 }
 
+.hero-panel-wide {
+  background: rgba(255, 253, 248, 0.9);
+}
+
 .prompt-box {
-  margin-top: 16px;
-  padding: 18px;
-  border-radius: var(--radius-md);
-  background: #201d1b;
-  color: #fef8f1;
-}
-
-.prompt-label {
-  margin: 0 0 10px;
-  color: #f8bb8d;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.prompt-box p:last-child {
+  display: block;
   margin: 0;
-  line-height: 1.75;
+  padding: 20px;
+  border-radius: 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+
+.prompt-hint {
+  display: block;
+  margin-bottom: 14px;
+  color: #948476;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.prompt-box textarea {
+  width: 100%;
+  min-height: 140px;
+  resize: none;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
 }
 
 .panel-grid {
@@ -329,6 +322,10 @@ h1 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   margin-top: 16px;
+}
+
+.panel-grid-six {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .panel-grid div {
@@ -352,13 +349,41 @@ h1 {
   font-size: 16px;
 }
 
-.panel-image {
-  margin-top: 18px;
-  border-radius: 24px;
+.hero-panel-footer {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
 }
 
-.panel-links {
-  margin-top: 18px;
+.chip-row {
+  align-items: center;
+}
+
+.chip-label {
+  color: #948476;
+  font-size: 16px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--line);
+  color: #6f6457;
+}
+
+.hero-launch {
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  border-radius: 24px;
+  background: linear-gradient(135deg, var(--accent) 0%, #dd7e3a 100%);
+  color: #fff;
+  font-size: 40px;
+  line-height: 1;
 }
 
 .section-heading {
@@ -637,13 +662,16 @@ h1 {
   .gallery-grid,
   .overview-grid,
   .link-cards,
-  .faq-list,
-  .hero-stats {
+  .faq-list {
     grid-template-columns: 1fr 1fr;
   }
 
   .video-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .panel-grid-six {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .hero-shell > :first-child,
@@ -664,7 +692,6 @@ h1 {
   .nav-shell,
   .main-nav,
   .hero-shell,
-  .hero-stats,
   .video-grid,
   .gallery-grid,
   .overview-grid,
@@ -690,6 +717,24 @@ h1 {
   .hero-panel,
   .cta-shell {
     padding: 22px;
+  }
+
+  .hero-copy {
+    padding: 10px 0 0;
+  }
+
+  .panel-grid-six {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-panel-footer {
+    align-items: flex-start;
+  }
+
+  .hero-launch {
+    width: 62px;
+    height: 62px;
+    border-radius: 20px;
   }
 
   .compare-table {
