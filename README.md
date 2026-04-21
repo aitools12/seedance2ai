@@ -1,4 +1,4 @@
-# Seedance2AI
+# Seedance 2.0 AI Video
 
 Seedance2AI is an AI video generator built for creators who want to turn prompts and reference images into short, polished videos online.
 
